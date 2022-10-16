@@ -8,6 +8,7 @@ RUN echo "deb http://deb.debian.org/debian bullseye-backports main" \
     && apt-get install --no-install-recommends -y -qq -t bullseye-backports \
         btop \
         byobu \
+        curl \
         dnsutils \
         emacs-goodies-el \
         emacs-nox \
